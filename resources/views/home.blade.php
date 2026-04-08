@@ -37,7 +37,7 @@
 
         <div class="scene">
             {{-- Book 1 - Teatro --}}
-            <a href="#">
+            <a href="{{ route('teatro') }}">
                 <img src="{{ asset('images/home/book-1.png') }}" alt="{{ __('home.teatro') }}">
                 <span class="book-label absolute inset-0 flex items-center justify-center text-white text-sm font-bold uppercase tracking-wider pointer-events-none" style="font-family: 'Quicksand', sans-serif; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
                     {{ __('home.teatro') }}
@@ -45,7 +45,7 @@
             </a>
 
             {{-- Book 2 - Cunta cuentos --}}
-            <a href="#">
+            <a href="{{ route('cunta-cuentos') }}">
                 <img src="{{ asset('images/home/book-2.png') }}" alt="{{ __('home.cunta_cuentos') }}">
                 <span class="book-label absolute inset-0 flex items-center justify-center text-white text-sm font-bold uppercase tracking-wider pointer-events-none" style="font-family: 'Quicksand', sans-serif; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
                     {{ __('home.cunta_cuentos') }}
@@ -53,7 +53,7 @@
             </a>
 
             {{-- Book 3 - Attività in italiano --}}
-            <a href="#">
+            <a href="{{ route('attivita') }}">
                 <img src="{{ asset('images/home/book-3.png') }}" alt="{{ __('home.attivita') }}">
                 <span class="book-label absolute inset-0 flex items-center justify-center text-white text-sm font-bold uppercase tracking-wider pointer-events-none" style="font-family: 'Quicksand', sans-serif; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
                     {{ __('home.attivita') }}
@@ -61,7 +61,7 @@
             </a>
 
             {{-- House - Chi sono --}}
-            <a href="#" style="transform-origin: bottom center;">
+            <a href="{{ route('chi-sono') }}" style="transform-origin: bottom center;">
                 <img src="{{ asset('images/home/house.png') }}" alt="{{ __('home.chi_sono') }}">
                 <span class="absolute inset-0 flex items-center justify-center text-white text-lg font-bold uppercase tracking-wide pointer-events-none" style="font-family: 'Quicksand', sans-serif; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
                     {{ __('home.chi_sono') }}
@@ -69,7 +69,7 @@
             </a>
 
             {{-- Book 4 - Calendario --}}
-            <a href="#">
+            <a href="{{ route('calendario') }}">
                 <img src="{{ asset('images/home/book-4.png') }}" alt="{{ __('home.calendario') }}">
                 <span class="book-label absolute inset-0 flex items-center justify-center text-white text-sm font-bold uppercase tracking-wider pointer-events-none" style="font-family: 'Quicksand', sans-serif; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
                     {{ __('home.calendario') }}
@@ -77,7 +77,7 @@
             </a>
 
             {{-- Book 5 - Contatti --}}
-            <a href="#">
+            <a href="{{ route('contatti') }}">
                 <img src="{{ asset('images/home/book-5.png') }}" alt="{{ __('home.contatti') }}">
                 <span class="book-label absolute inset-0 flex items-center justify-center text-white text-sm font-bold uppercase tracking-wider pointer-events-none" style="font-family: 'Quicksand', sans-serif; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
                     {{ __('home.contatti') }}
